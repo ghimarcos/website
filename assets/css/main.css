@@ -807,13 +807,18 @@ p {
   padding: 160px 0 50px;
   background-image: url("../img/hero/hero-bg.png");
   background-position: bottom;
-  height: 152vh;
+  height: 84rem;
   background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 767px) {
   .hero-section {
-    padding-top: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -825,6 +830,7 @@ p {
 (max-width: 767px) {
   .hero-section .hero-content {
     margin-bottom: 0px;
+    
   }
 }
 
